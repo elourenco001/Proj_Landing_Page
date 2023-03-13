@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background: linear-gradient(to top, #FFF, #ff0000);
+    color: #FFFF;
+    font-family: arial;
+    padding: 5px;
+    text-align: center;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+.container{
+    background-color: #FFFF;
+    width: 95%;
+    box-shadow: 2px 2px #FFF;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+    min-height: 0;
+    min-width: 0;
+    }
+footer{
+    font-family: arial;
+    color: #FFFF;
+    background: linear-gradient(to bottom, #fff, #ff0000);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 2px #000;
+    
+    
+}
+p{
+    font-family: arial;
+    text-align: justify;
+    padding: 5px;
+    font-size: 1.6rem;
+    
+}
+h1{
+    font-family: arial;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 4.0rem;
+    text-shadow: 1px 1px 2px #000;
+    color: #ff0000;
+}
+h2{
+    font-family: arial;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.8rem;
+    
+
+}
+h3{
+    font-size: 1.8rem;
+    font-family: arial;
+    margin : 0; 
+    padding: 5px;           
+}
+h4{
+    font-size: 1.0rem;
+    font-family: arial;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+h5{
+    font-family: arial;
+    text-align: center;
+    padding: 1px;
+    font-size: 2.0rem;
+    text-shadow: 1px 1px 2px #ffd700;
+}
+.texto-footer{
+    text-align: center;
+    font-family: Arial;
+    padding-top: 5px;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.compre{
+
+    background-color: rgba(255, 255, 0, 0.5);
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    margin-top: 10rem;
+    z-index: 1;
+    border-radius: 10px;
+
+}
+@media (min-width: 280px) and(max-width: 820px){
+    .compre{
+
+        background-color: rgba(255, 255, 0, 0.5);
+        width: 150px;
+        height: 100px;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        margin-top: 10rem;
+        z-index: 1;
+        border-radius: 10px;
+    
+    }
+
+}
+button{
+    
+    text-align: auto;
+    padding: 5px;
+    background-color: rgba(255.0.0 1.0);
+    color: #fff;
+   
+
+}
+
+@media (min-width: 280px) and (max-width: 820px){
+
+    button{
+    text-align: auto;
+    padding: 5px;
+    background-color: rgba(255.0.0 1.0);
+    color: #fff;
+    }
+
+}
+
+#grid-container {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color:#FFF;
+    padding: 5px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.grid div{
+    background-color: #fff;
+    font-family: arial;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem;
+
+
+}
+
+#formulario{
+background-color:#008B8B;
+font-family: arial;
+text-align: center;
+color: #fff;
+
+
+}
+.formulario-contato{
+    font-family: arial;
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bold;
+}
+input{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    padding: 5px;
+    
+    
+}
+.dados-formulario{
+    width: 93%;
+
+}
+nav{
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 1.6rem;
+    margin-right: 2%;
+    word-spacing: 30px;
+    text-shadow: 1px 1px 2px #000;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 255, 0);
+    transition: all 100ms ease-in-out;
+    text-shadow: 1px 1px 2px #000;
+    background-color: #ff0000;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+a:hover{
+    color: rgb(255,255,255);
+    text-shadow: 2px 2px 3px #000;
+    background-color: #ff0000;
+    padding: 3px;
+    border-radius: 10px;
+    border: solid #ffff00;
+}
+.imagens-site{
+    border-radius: 10px 10px 10px 10px;
+    width: 70%;
+    height: 20%;
+    
+}
+@media(min-width: 280px)and(max-width: 820px){
+    .imagens-site{
+        border-radius: 10px 10px 10px 10px;
+        width: 40%;
+        height: 10%;
+    
+    }
+}

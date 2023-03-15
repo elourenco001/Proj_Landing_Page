@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
 }
 header{
-    background: linear-gradient(to right, #0000cd, #00bfff);
+    background: linear-gradient(to right, #0000cd, #D3D3D3);
     color: #FFFF;
     font-size: 1.8rem;
     padding-top: 2rem;
@@ -41,7 +41,7 @@ body{
 footer{
     font-family: arial;
     color: #FFFF;
-    background: linear-gradient(to right, #0000cd, #00bfff);
+    background: linear-gradient(to right, #0000cd, #D3D3D3);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -78,11 +78,13 @@ h3{
     padding: 5px;           
 }
 h4{
-    font-size: 1.0rem;
+    font-size: 2.0rem;
     font-family: arial;
     margin: 0;
     padding-left: 5px;
     padding-bottom: 5px;
+    text-shadow: 1px 1px 2px #ffd700;
+    color: #ff0000;
 }
 h5{
     font-family: arial;
@@ -219,7 +221,7 @@ a{
     text-shadow: 1px 1px 2px #000;
     background-color: #ff0000;
     padding: 3px;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
     
 }
 a:hover{
@@ -227,7 +229,7 @@ a:hover{
     text-shadow: 2px 2px 3px #000;
     background-color: #ff0000;
     padding: 3px;
-    border-radius: 10px;
+   
     border: solid #ffff00;
 }
 .imagens-site{
@@ -243,4 +245,17 @@ a:hover{
         height: 10%;
     
     }
+}
+
+.sobre{
+
+    width: 50%;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border: solid rgba(128,128,128, 1);
+    margin: 0 auto;
+    padding-top: 30px;
+    padding: 3rem;
+    background: linear-gradient(to bottom, #fff , #D3D3D3);
+
 }

@@ -259,14 +259,17 @@ a:hover{
     background: linear-gradient(to bottom, #fff , #D3D3D3);
 
 }
-#desenvolvedor{
+.desenvolvedor{
     text-align: center;
     padding: 3rem;
     border-radius: 10px 10px 10px 10px;
     margin: 0 auto;
     border: solid rgba(128,128,128, 1);
     padding-top: 30px;
-    background: linear-gradient(to bottom, #fff , #D3D3D3);
+    background: linear-gradient(to right, #0000cd, #D3D3D3);
+    color: #FFF;
+    border: solid #fff;
+    
 
 
 }
